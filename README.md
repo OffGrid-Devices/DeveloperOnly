@@ -19,8 +19,8 @@ This repository only contains this README file and is intended for Qathan develo
 
 1. When saving the max for live device don't forget to *freeze* the device before saving it.
 [Why?](https://cycling74.com/docs/max6/dynamic/c74_docs.html#live_sharing);
-2. To make a *Live Pack* go to Ableton Live window, then *View > File Manager > Manage Project > Create Pack*
-3. Then pull the project file (.alp) to the *master* branch 
+2. To make a *Live Pack* go to Ableton Live window, then *View > File Manager > Manage Project > Create Pack*;
+3. Afterwards pull the project file (.alp) to the *master* branch 
 
 ## Licensing
 
