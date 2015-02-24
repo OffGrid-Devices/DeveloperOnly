@@ -13,6 +13,9 @@ This repository only contains this README file and is intended for Qathan develo
 ..*MINOR version when you add functionality in a backwards-compatible manner, and
 ..*PATCH version when you make backwards-compatible bug fixes.
 7. Whenever a stable release is accomplished you should make a *github release* in order to keep a backup of all versions of the device. When making a *release* from the *development branch* name it as (for example) "Q.device-dev v.1.1.5". When making a release from the *master branch* name it as (for example) "Q.device-pack v.1.1.5" or just "Q.device v.1.1.5". Remember that *master* branches contain an Ableton Live Package file (.alp) and *development* branches contain all development Max files (such as abstractions, externals, etc.) in a Max Package format.
+8. In order to make it easier to develop Qathan devices in collaboration the patch structure should be as follows:
+..* main patch: contains all user interface objects (if possible, because some will have to go onto bpatchers);
+..* all other objects in the main patch should be *abstractions* and not *patchers* so that it is possible to have more than one person working on the same device as well as to improve maintainability.
  
 
 ## Instructions for distributing Qathan Devices
