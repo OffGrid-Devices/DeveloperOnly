@@ -1,4 +1,4 @@
-# DeveloperOnly
+# DeveloperOnly — GUIDELINES
 
 This repository only contains this README file and is intended for Qathan developers only. It provides guidelines on how to develop and distribute Qathan devices for MaxForLive.  
 
